@@ -5,7 +5,6 @@ import {
   GET_USER,
   GET_REPOS
 } from "../types";
-import { arrowFunctionExpression } from "@babel/types";
 
 export default (state, action) => {
   switch (action.type) {

@@ -49,6 +49,7 @@ const User = ({ match }) => {
             src={avatar_url}
             style={{ width: "150px" }}
             className="round-img"
+            alt="Whatever..."
           />
           <h1>{name}</h1>
           <p>Location: {location}</p>
